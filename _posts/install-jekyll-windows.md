@@ -21,6 +21,10 @@ Using the built-in apt package manager offers the fastest and easiest way to ins
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
+Then update components for WSL2
+```bash
+sudo apt install build-essential
+```
 
 2. Use the following command to install Ruby:
 ```bash
